@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.njabreu.mismapas.MainActivity">
+
+    <GridLayout
+        android:layout_marginTop="30dp"
+        android:columnCount="2"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:useDefaultMargins="true"
+        android:transitionGroup="true">
+
+        <ImageButton
+            android:onClick="irMapa"
+            android:id="@+id/ibGetsemani"
+            android:src="@drawable/monte_getsemani"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <ImageButton
+            android:onClick="irMapa"
+            android:id="@+id/ibLomaQuitaEspuela"
+            android:src="@drawable/loma_quita_espuela"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <ImageButton
+            android:onClick="irMapa"
+            android:id="@+id/ibSaltoDelLimonSamana"
+            android:src="@drawable/salto_el_limon"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+        <ImageButton
+            android:onClick="irMapa"
+            android:id="@+id/ibSaltoDeJimenoaJarabacoa"
+            android:src="@drawable/salto_de_jimenoa"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+    </GridLayout>
+
+
+</RelativeLayout>
